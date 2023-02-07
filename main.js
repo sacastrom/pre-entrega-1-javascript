@@ -13,8 +13,8 @@ for(let i = 0; i < 3; i++){
         let cantidadProductos = parseInt(prompt("¿Cuántos productos vas a calcular?"));
         const comisionMercadoLibre = 0.85;
         const costoFijoPorVenta = 150;
-        const costoEnvioGratis = 950;
-        const descuentoCompra = 0.70;
+        const costoEnvioGratis = 1050;
+        const descuentoCompra = 0.75;
         
         for( let i = 1; i <= cantidadProductos; i++){
             //Cálculo del precio para publicar en Mercado Libre de los productos que se ingresen.
